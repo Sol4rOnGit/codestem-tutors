@@ -1,0 +1,47 @@
+.subjects {
+  min-height: 100svh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-md);
+  padding: 6rem 1.25rem 3rem;
+  scroll-snap-align: start;
+}
+
+.reminder {
+  font-weight: 600;
+}
+
+.cardWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-md);
+  width: 100%;
+}
+
+.card {
+  background: var(--color-glass-blue);
+  border: 1px solid var(--color-card-border);
+  width: min(20rem, 100%);
+  border-radius: var(--radius-lg);
+  padding: var(--space-md);
+  list-style-position: inside;
+  box-shadow: 0 4px 16px var(--color-shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.card a {
+  margin-top: auto;
+  font-weight: 600;
+  color: var(--color-cta);
+}
+
+.priceWarning {
+  font-size: 0.75rem;
+  opacity: 0.75;
+}

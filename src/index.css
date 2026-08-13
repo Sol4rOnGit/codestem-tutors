@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --color-bg-start: #b7eeff;
+  --color-bg-end: #bedce6;
+  --color-primary: #10293b;
+  --color-secondary: #ffffff;
+  --color-accent: #2c92a7;
+  --color-cta: #147a9c;
+  --color-cta-hover: #0f6483;
+  --color-glass: rgba(255, 255, 255, 0.6);
+  --color-glass-blue: rgba(180, 232, 245, 0.45);
+  --color-card-border: rgba(20, 122, 156, 0.15);
+  --color-shadow: rgba(16, 41, 59, 0.18);
+
+  --font-body: 'Poppins', sans-serif;
+
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2.5rem;
+  --space-xl: 4rem;
+
+  --radius-md: 1rem;
+  --radius-lg: 1.4rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-body);
+}
+
+html {
+  scroll-snap-type: y mandatory;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--color-primary);
+  background: linear-gradient(180deg, var(--color-bg-start), var(--color-bg-end));
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline dotted;
+}
