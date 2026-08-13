@@ -8,5 +8,6 @@ Migrated from the original static HTML/CSS/JS site.
 npm install
 npm run dev
 ```
+in the terminal
 
-in da terminal fr
+Should be hosted here: [Website](https://codestem-tutors.vercel.app/)
